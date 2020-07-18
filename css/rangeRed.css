@@ -1,0 +1,94 @@
+/* Credits: https://codepen.io/jasonwoan/pen/HcgxB */
+
+#rngRed {
+  -webkit-appearance: none;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+#rngRed::-webkit-slider-runnable-track {
+  background-color: #ff0000;
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+#rngRed[disabled]::-webkit-slider-runnable-track {
+  border: 1px solid #ff0000;
+  background-color: transparent;
+  opacity: 0.4;
+}
+
+#rngRed::-moz-range-track {
+  background-color: #ff0000;
+  height: 6px;
+  border-radius: 3px;
+  border: none;
+}
+
+#rngRed::-ms-track {
+  color: transparent;
+  border: none;
+  background: none;
+  height: 6px;
+}
+
+#rngRed::-ms-fill-lower {
+  background-color: #ff0000;
+  border-radius: 3px;
+}
+
+#rngRed::-ms-fill-upper {
+  background-color: #ff0000;
+  border-radius: 3px;
+}
+
+#rngRed::-ms-tooltip {
+  display: none; /* display and visibility only */
+}
+
+#rngRed::-moz-range-thumb {
+  border-radius: 20px;
+  height: 18px;
+  width: 18px;
+  border: none;
+  background: none;
+  background-color: #9c0000;
+}
+
+#rngRed:active::-moz-range-thumb {
+  outline: none;
+}
+
+#rngRed::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  border-radius: 100%;
+  background-color: #9c0000;
+  height: 18px;
+  width: 18px;
+  margin-top: -7px;
+}
+
+#rngRed[disabled]::-webkit-slider-thumb {
+  background-color: transparent;
+  border: 1px solid #ff0000;
+}
+
+#rngRed:active::-webkit-slider-thumb {
+  outline: none;
+}
+
+#rngRed::-ms-thumb {
+  border-radius: 100%;
+  background-color: #606670;
+  height: 18px;
+  width: 18px;
+  border: none;
+}
+
+#rngRed:active::-ms-thumb {
+  border: none;
+}

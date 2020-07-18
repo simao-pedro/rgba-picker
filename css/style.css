@@ -1,0 +1,46 @@
+body {
+  font-family: 'Segoe UI';
+}
+
+h1 {
+  margin: 0.96rem 0 1.84rem;
+  font-size: 3.2rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.varRGBA {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.96rem;
+}
+
+.varRGBA span {
+  width: 6.4rem;
+  font-size: 1.28rem;
+  display: inline-block;
+  margin-left: 0.8rem;
+  margin-top: -0.4rem;
+}
+
+.varRGBA .inputRng {
+  width: 16rem;
+}
+
+.varRGBA input[type='text'] {
+  width: 2rem;
+  margin-left: 0.96rem;
+}
+
+#colorGenerated {
+  margin: 2.4rem 0;
+  width: 12.8rem;
+  height: 12.8rem;
+  border: 2px solid #cccccc;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Picker</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/rangeRed.css" />
+    <link rel="stylesheet" href="./css/rangeGreen.css" />
+    <link rel="stylesheet" href="./css/rangeBlue.css" />
+    <link rel="stylesheet" href="./css/rangeAlpha.css" />
+  </head>
+  <body>
+    <form>
+      <h1>RGBA Picker</h1>
+      <div class="varRGBA">
+        <span><strong>R</strong>ed:</span>
+        <input
+          type="range"
+          class="inputRng"
+          id="rngRed"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <span id="txtRed"></span>
+      </div>
+      <div class="varRGBA">
+        <span><strong>G</strong>reen:</span>
+        <input
+          type="range"
+          class="inputRng"
+          id="rngGreen"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <span id="txtGreen"></span>
+      </div>
+      <div class="varRGBA">
+        <span><strong>B</strong>lue:</span>
+        <input
+          type="range"
+          class="inputRng"
+          id="rngBlue"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <span id="txtBlue"></span>
+      </div>
+      <div class="varRGBA">
+        <span><strong>A</strong>lpha:</span>
+        <input
+          type="range"
+          class="inputRng"
+          id="rngAlpha"
+          min="0"
+          max="1"
+          step=".01"
+          value="1"
+        />
+        <span id="txtAlpha"></span>
+      </div>
+      <div id="colorGenerated"></div>
+    </form>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

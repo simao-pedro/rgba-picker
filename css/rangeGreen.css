@@ -1,0 +1,94 @@
+/* Credits: https://codepen.io/jasonwoan/pen/HcgxB */
+
+#rngGreen {
+  -webkit-appearance: none;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+#rngGreen::-webkit-slider-runnable-track {
+  background-color: #00ff00;
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+#rngGreen[disabled]::-webkit-slider-runnable-track {
+  border: 1px solid #00ff00;
+  background-color: transparent;
+  opacity: 0.4;
+}
+
+#rngGreen::-moz-range-track {
+  background-color: #00ff00;
+  height: 6px;
+  border-radius: 3px;
+  border: none;
+}
+
+#rngGreen::-ms-track {
+  color: transparent;
+  border: none;
+  background: none;
+  height: 6px;
+}
+
+#rngGreen::-ms-fill-lower {
+  background-color: #00ff00;
+  border-radius: 3px;
+}
+
+#rngGreen::-ms-fill-upper {
+  background-color: #00ff00;
+  border-radius: 3px;
+}
+
+#rngGreen::-ms-tooltip {
+  display: none; /* display and visibility only */
+}
+
+#rngGreen::-moz-range-thumb {
+  border-radius: 20px;
+  height: 18px;
+  width: 18px;
+  border: none;
+  background: none;
+  background-color: #00aa08;
+}
+
+#rngGreen:active::-moz-range-thumb {
+  outline: none;
+}
+
+#rngGreen::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  border-radius: 100%;
+  background-color: #00aa08;
+  height: 18px;
+  width: 18px;
+  margin-top: -7px;
+}
+
+#rngGreen[disabled]::-webkit-slider-thumb {
+  background-color: transparent;
+  border: 1px solid #00ff00;
+}
+
+#rngGreen:active::-webkit-slider-thumb {
+  outline: none;
+}
+
+#rngGreen::-ms-thumb {
+  border-radius: 100%;
+  background-color: #606670;
+  height: 18px;
+  width: 18px;
+  border: none;
+}
+
+#rngGreen:active::-ms-thumb {
+  border: none;
+}
